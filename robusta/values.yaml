@@ -86,7 +86,7 @@ priorityBuiltinPlaybooks:
       status: "all"
   actions:
   - name_silencer:
-      names: ["Watchdog", "KubeSchedulerDown", "KubeControllerManagerDown", "InfoInhibitor"]
+      names: ["Watchdog", "KubeSchedulerDown", "KubeControllerManagerDown", "InfoInhibitor","PrometheusRuleFailures", "KubeProxyDown", "etcdInsufficientMembers", "etcdMembersDown", "TargetDown"]
 
 # Silences for small/local clusters
 - triggers:
